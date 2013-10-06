@@ -1,13 +1,13 @@
 #!/usr/bin/perl
 
 
-main () {
+#main () {
 
 &myPrint();
 
-}
+#}
 
 
-sub myPrint
+sub myPrint {
 print "Hello Earth! \n";
-
+}
