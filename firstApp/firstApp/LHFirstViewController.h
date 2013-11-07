@@ -10,4 +10,11 @@
 
 @interface LHFirstViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *targetMoved;
+
+- (IBAction)ButtonUp:(id)sender;
+- (IBAction)ButtonDown:(id)sender;
+
+
+
 @end
