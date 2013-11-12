@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BD557B61832985200C03D7C /* LHThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD557B51832985200C03D7C /* LHThirdViewController.m */; };
 		7BF487B9182918A30078A49F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF487B8182918A30078A49F /* Foundation.framework */; };
 		7BF487BB182918A30078A49F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF487BA182918A30078A49F /* CoreGraphics.framework */; };
 		7BF487BD182918A30078A49F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF487BC182918A30078A49F /* UIKit.framework */; };
@@ -22,8 +23,6 @@
 		7BF487DD182918A30078A49F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF487BC182918A30078A49F /* UIKit.framework */; };
 		7BF487E5182918A30078A49F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BF487E3182918A30078A49F /* InfoPlist.strings */; };
 		7BF487E7182918A30078A49F /* firstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF487E6182918A30078A49F /* firstAppTests.m */; };
-		7BF487FB1829331F0078A49F /* LHThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF487FA1829331F0078A49F /* LHThirdViewController.m */; };
-		7BF487FC1829331F0078A49F /* LHThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF487FA1829331F0078A49F /* LHThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BD557B41832985200C03D7C /* LHThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHThirdViewController.h; sourceTree = "<group>"; };
+		7BD557B51832985200C03D7C /* LHThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHThirdViewController.m; sourceTree = "<group>"; };
 		7BF487B5182918A30078A49F /* firstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF487B8182918A30078A49F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BF487BA182918A30078A49F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,8 +59,6 @@
 		7BF487E2182918A30078A49F /* firstAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "firstAppTests-Info.plist"; sourceTree = "<group>"; };
 		7BF487E4182918A30078A49F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BF487E6182918A30078A49F /* firstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstAppTests.m; sourceTree = "<group>"; };
-		7BF487F91829331F0078A49F /* LHThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHThirdViewController.h; path = ../LHThirdViewController.h; sourceTree = "<group>"; };
-		7BF487FA1829331F0078A49F /* LHThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHThirdViewController.m; path = ../LHThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +118,8 @@
 		7BF487BE182918A30078A49F /* firstApp */ = {
 			isa = PBXGroup;
 			children = (
-				7BF487F91829331F0078A49F /* LHThirdViewController.h */,
-				7BF487FA1829331F0078A49F /* LHThirdViewController.m */,
+				7BD557B41832985200C03D7C /* LHThirdViewController.h */,
+				7BD557B51832985200C03D7C /* LHThirdViewController.m */,
 				7BF487C7182918A30078A49F /* LHAppDelegate.h */,
 				7BF487C8182918A30078A49F /* LHAppDelegate.m */,
 				7BF487CA182918A30078A49F /* Main.storyboard */,
@@ -261,9 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD557B61832985200C03D7C /* LHThirdViewController.m in Sources */,
 				7BF487C9182918A30078A49F /* LHAppDelegate.m in Sources */,
 				7BF487C5182918A30078A49F /* main.m in Sources */,
-				7BF487FB1829331F0078A49F /* LHThirdViewController.m in Sources */,
 				7BF487D2182918A30078A49F /* LHSecondViewController.m in Sources */,
 				7BF487CF182918A30078A49F /* LHFirstViewController.m in Sources */,
 			);
@@ -273,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF487FC1829331F0078A49F /* LHThirdViewController.m in Sources */,
 				7BF487E7182918A30078A49F /* firstAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +473,7 @@
 				7BF487EC182918A30078A49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BF487ED182918A30078A49F /* Build configuration list for PBXNativeTarget "firstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +482,7 @@
 				7BF487EF182918A30078A49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
