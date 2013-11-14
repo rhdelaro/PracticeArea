@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface LHSecondViewController : UIViewController
+@interface LHSecondViewController : UIViewController <CLLocationManagerDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *latitudeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *longitudeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+- (IBAction)getCurrentLocation:(id)sender;
+
 
 @end
